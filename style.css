@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+ font-family: cursive;
+ text-align: center;
+ padding: 5px;
+}
+.container {
+  max-width: 600px;
+  padding: 25px;
+  margin: 55px auto;
+  min-height: fit-content;
+  background: rgb(230, 228, 228);
+  box-shadow: 0px 2px 20px #f7f7f7;
+  border: .4rem #f7f7f7;
+  border-style: inset;
+  border-radius: 8px;
+  /* text-align: center; */
+}
+.inputfileds {
+ 
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+ul {
+  text-align: center;
+  padding: 15px;
+}
+li {
+  font-weight: 700px;
+  list-style-type: none;
+  width: 95%;
+  margin-top: 5px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: cursive;
+  padding: 5px 15px;
+  font-size: 28px;
+  color: steelblue;
+  /* font-weight: 800; */
+  background-color: rgb(207, 207, 207);
+  border-radius: 6px;
+  border-width: .4rem; 
+  border-style: outset;
+  box-shadow: 0px 4px 10px rgb(189, 188, 188);
+}
+
+.linet {
+  text-decoration: line-through !important;
+  /* font-weight: 700px; */
+
+}
+li button {
+  border: none;
+  margin: auto auto;
+  padding: 8px 12px;
+  float: right;
+  text-align: end;
+  font-size: 18px;
+  line-height: 18px;
+  background-color: white;
+  border-style: outset;
+  border-width: .3rem;
+  border-radius: 12px;
+  color: slategray;
+  margin-left: 5px;
+  justify-self: center;
+  font-weight: 700px;
+
+  
+}
+
+li button:focus {
+  outline: none;
+  /* border: none; */
+}
+
+#todoinput {
+  width: 400px;
+  height: 45px;
+  font-weight: 700px;
+
+  font-size: 18px;
+  text-indent: 12px;
+  color: rgb(136, 135, 135);
+  background-color: white;
+
+  border-radius: 5px;
+  border: .4rem inset #f7f7f7;
+  
+  /* border-width: 1px; */
+  border-style: inset;
+}
+
+#todoinput:focus {
+  outline: none;
+  /* border: none; */
+}
+#Addbtn {
+    background-color: white;
+  padding: 8px 25px;
+  color: slategrey;
+  border: .4rem outset silver;
+  border-radius: 12px;
+  font-weight: 700px;
+
+  font-size: 18px;
+}
+#Addbtn:focus {
+  outline: none;
+}
